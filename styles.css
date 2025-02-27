@@ -1,5 +1,10 @@
 body {
     background-color: rgb(200,200,200);
+    background-image: url("./tree.png");
+    background-size: cover;
+    background-position: center center;
+background-attachment: fixed;
+    background-repeat: no-repeat;
     color: rgb(0,0,0);
     font-family: "Open Sans", sans-serif;
     text-align: center;
