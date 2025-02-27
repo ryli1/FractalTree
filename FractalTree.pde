@@ -6,7 +6,7 @@ private double branchAngle = .2;
 public ArrayList <Branch> branches = new ArrayList <Branch>();
 
 public void setup() {   
-  size(740, 640);
+  size(740, 740);
   noLoop();
 } 
 
@@ -14,7 +14,7 @@ public void draw() {
   background(#17446F);   
   stroke(#6f4c36);   
   strokeWeight(4);
-  line(370, 640, 370, 540);   
+  line(370, 750, 370, 540);   
   drawBranches(370, 540, 80, 3*PI/2);
   for(Branch b : branches) {
     b.show(); 
